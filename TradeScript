@@ -1,0 +1,317 @@
+
+local G2L = {};
+
+-- StarterGui.Main
+G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["1"]["Name"] = [[Main]];
+G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+-- StarterGui.Main.Frame
+G2L["2"] = Instance.new("Frame", G2L["1"]);
+G2L["2"]["BackgroundColor3"] = Color3.fromRGB(76, 76, 76);
+G2L["2"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["2"]["Size"] = UDim2.new(0, 410, 0, 267);
+G2L["2"]["Position"] = UDim2.new(0.49984025955200195, 0, 0.48173072934150696, 0);
+G2L["2"]["Visible"] = false;
+
+-- StarterGui.Main.Frame.UICorner
+G2L["3"] = Instance.new("UICorner", G2L["2"]);
+G2L["3"]["CornerRadius"] = UDim.new(0, 6);
+
+-- StarterGui.Main.Frame.Frame
+G2L["4"] = Instance.new("Frame", G2L["2"]);
+G2L["4"]["BackgroundColor3"] = Color3.fromRGB(50, 50, 50);
+G2L["4"]["Size"] = UDim2.new(0, 112, 0, 240);
+G2L["4"]["Position"] = UDim2.new(-0.0018813714850693941, 0, 0.10099392384290695, 0);
+
+-- StarterGui.Main.Frame.Frame.UICorner
+G2L["5"] = Instance.new("UICorner", G2L["4"]);
+
+
+-- StarterGui.Main.Frame.Frame.Name
+G2L["6"] = Instance.new("TextLabel", G2L["4"]);
+G2L["6"]["RichText"] = true;
+G2L["6"]["BackgroundColor3"] = Color3.fromRGB(64, 64, 64);
+G2L["6"]["TextSize"] = 15;
+G2L["6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["6"]["Size"] = UDim2.new(0, 410, 0, 27);
+G2L["6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6"]["Text"] = [[ScriptHub]];
+G2L["6"]["Name"] = [[Name]];
+G2L["6"]["Font"] = Enum.Font.Unknown;
+G2L["6"]["Position"] = UDim2.new(0.0068871635012328625, 0, -0.11235573887825012, 0);
+
+-- StarterGui.Main.Frame.Frame.Name.UICorner
+G2L["7"] = Instance.new("UICorner", G2L["6"]);
+
+
+-- StarterGui.Main.Frame.Frame.Trade Scam 
+G2L["8"] = Instance.new("TextLabel", G2L["4"]);
+G2L["8"]["BackgroundColor3"] = Color3.fromRGB(133, 133, 133);
+G2L["8"]["TextSize"] = 15;
+G2L["8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["8"]["Size"] = UDim2.new(0, 112, 0, 44);
+G2L["8"]["Text"] = [[Trade Scam]];
+G2L["8"]["Name"] = [[Trade Scam ]];
+G2L["8"]["Font"] = Enum.Font.Unknown;
+G2L["8"]["Position"] = UDim2.new(0, 0, 0.02916666679084301, 0);
+
+-- StarterGui.Main.Frame.Frame.Trade Scam .UICorner
+G2L["9"] = Instance.new("UICorner", G2L["8"]);
+
+
+-- StarterGui.Main.Frame.Frame.Trade Scam .TextLabel
+G2L["a"] = Instance.new("TextLabel", G2L["8"]);
+G2L["a"]["TextWrapped"] = true;
+G2L["a"]["TextScaled"] = true;
+G2L["a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["a"]["TextSize"] = 30;
+G2L["a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["a"]["Size"] = UDim2.new(0, 238, 0, 72);
+G2L["a"]["Text"] = [[discord.gg/KxeXB7thCT]];
+G2L["a"]["Font"] = Enum.Font.Unknown;
+G2L["a"]["BackgroundTransparency"] = 1;
+G2L["a"]["Position"] = UDim2.new(1.2142854928970337, 0, 2.090909004211426, 0);
+
+-- StarterGui.Main.Frame.Frame.Trade Scam .TextLabel.UICorner
+G2L["b"] = Instance.new("UICorner", G2L["a"]);
+
+
+-- StarterGui.Main.Frame.Frame.Trade Scam .TextLabel
+G2L["c"] = Instance.new("TextLabel", G2L["8"]);
+G2L["c"]["TextWrapped"] = true;
+G2L["c"]["TextScaled"] = true;
+G2L["c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c"]["TextSize"] = 14;
+G2L["c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c"]["Size"] = UDim2.new(0.5714287161827087, 0, 0.8467757105827332, 0);
+G2L["c"]["Text"] = [[V.1.2]];
+G2L["c"]["Font"] = Enum.Font.FredokaOne;
+G2L["c"]["BackgroundTransparency"] = 1;
+G2L["c"]["Position"] = UDim2.new(0.2104591727256775, 0, 4.4341325759887695, 0);
+
+-- StarterGui.Main.Frame.Frame.Trade Scam .TextLabel.UICorner
+G2L["d"] = Instance.new("UICorner", G2L["c"]);
+
+
+-- StarterGui.Main.Frame.Frame.Trade Scam .TextLabel
+G2L["e"] = Instance.new("TextLabel", G2L["8"]);
+G2L["e"]["TextWrapped"] = true;
+G2L["e"]["TextScaled"] = true;
+G2L["e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e"]["TextSize"] = 9;
+G2L["e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e"]["Size"] = UDim2.new(0.8877549767494202, 0, 1.6182045936584473, 0);
+G2L["e"]["Text"] = [[İf you have problem contact us on discord]];
+G2L["e"]["Font"] = Enum.Font.Unknown;
+G2L["e"]["BackgroundTransparency"] = 1;
+G2L["e"]["Position"] = UDim2.new(0.04974501579999924, 0, 1.7520695924758911, 0);
+
+-- StarterGui.Main.Frame.Frame.Trade Scam .TextLabel.UICorner
+G2L["f"] = Instance.new("UICorner", G2L["e"]);
+
+
+-- StarterGui.Main.Frame.Frame.Trade Scam .TextLabel.TextLabel
+G2L["10"] = Instance.new("TextLabel", G2L["e"]);
+G2L["10"]["TextWrapped"] = true;
+G2L["10"]["TextScaled"] = true;
+G2L["10"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["10"]["TextSize"] = 13;
+G2L["10"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["10"]["Size"] = UDim2.new(0, 240, 0, 34);
+G2L["10"]["Text"] = [[Credit : Leewalky]];
+G2L["10"]["Font"] = Enum.Font.Unknown;
+G2L["10"]["BackgroundTransparency"] = 1;
+G2L["10"]["Position"] = UDim2.new(1.3074713945388794, 0, 1.6572799682617188, 0);
+
+-- StarterGui.Main.Frame.Frame.Trade Scam .TextButton
+G2L["11"] = Instance.new("TextButton", G2L["8"]);
+G2L["11"]["TextWrapped"] = true;
+G2L["11"]["RichText"] = true;
+G2L["11"]["TextSize"] = 17;
+G2L["11"]["TextScaled"] = true;
+G2L["11"]["BackgroundColor3"] = Color3.fromRGB(98, 98, 98);
+G2L["11"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["11"]["Size"] = UDim2.new(0, 263, 0, 77);
+G2L["11"]["Text"] = [[Activate Trade Scam]];
+G2L["11"]["Font"] = Enum.Font.Unknown;
+G2L["11"]["Position"] = UDim2.new(1.098214030265808, 0, 0.34734898805618286, 0);
+
+-- StarterGui.Main.Frame.Frame.Trade Scam .TextButton.UICorner
+G2L["12"] = Instance.new("UICorner", G2L["11"]);
+
+
+-- StarterGui.Main.Frame.LocalScript
+G2L["13"] = Instance.new("LocalScript", G2L["2"]);
+
+
+-- StarterGui.Main.Key sys
+G2L["14"] = Instance.new("Frame", G2L["1"]);
+G2L["14"]["BackgroundColor3"] = Color3.fromRGB(45, 45, 45);
+G2L["14"]["Size"] = UDim2.new(0, 235, 0, 318);
+G2L["14"]["Position"] = UDim2.new(0.3747346103191376, 0, 0.169921875, 0);
+G2L["14"]["Name"] = [[Key sys]];
+
+-- StarterGui.Main.Key sys.Frame
+G2L["15"] = Instance.new("Frame", G2L["14"]);
+G2L["15"]["BackgroundColor3"] = Color3.fromRGB(84, 84, 84);
+G2L["15"]["Size"] = UDim2.new(0, 235, 0, 18);
+
+-- StarterGui.Main.Key sys.Frame.UICorner
+G2L["16"] = Instance.new("UICorner", G2L["15"]);
+
+
+-- StarterGui.Main.Key sys.UICorner
+G2L["17"] = Instance.new("UICorner", G2L["14"]);
+
+
+-- StarterGui.Main.Key sys.TextLabel
+G2L["18"] = Instance.new("TextLabel", G2L["14"]);
+G2L["18"]["TextWrapped"] = true;
+G2L["18"]["RichText"] = true;
+G2L["18"]["TextScaled"] = true;
+G2L["18"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["18"]["TextSize"] = 14;
+G2L["18"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["18"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["18"]["Text"] = [[ScriptHub]];
+G2L["18"]["Font"] = Enum.Font.Unknown;
+G2L["18"]["BackgroundTransparency"] = 1;
+G2L["18"]["Position"] = UDim2.new(0.0765957459807396, 0, 0.11949685215950012, 0);
+
+-- StarterGui.Main.Key sys.TextButton
+G2L["19"] = Instance.new("TextButton", G2L["14"]);
+G2L["19"]["TextWrapped"] = true;
+G2L["19"]["TextSize"] = 14;
+G2L["19"]["TextScaled"] = true;
+G2L["19"]["BackgroundColor3"] = Color3.fromRGB(81, 81, 81);
+G2L["19"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["19"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["19"]["Text"] = [[Login]];
+G2L["19"]["Font"] = Enum.Font.Unknown;
+G2L["19"]["Position"] = UDim2.new(0.07234042882919312, 0, 0.6635220050811768, 0);
+
+-- StarterGui.Main.Key sys.TextButton.UICorner
+G2L["1a"] = Instance.new("UICorner", G2L["19"]);
+
+
+-- StarterGui.Main.Key sys.TextButton.LocalScript
+G2L["1b"] = Instance.new("LocalScript", G2L["19"]);
+
+
+-- StarterGui.Main.Key sys.TextBox
+G2L["1c"] = Instance.new("TextBox", G2L["14"]);
+G2L["1c"]["CursorPosition"] = -1;
+G2L["1c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1c"]["TextSize"] = 14;
+G2L["1c"]["BackgroundColor3"] = Color3.fromRGB(66, 66, 66);
+G2L["1c"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["1c"]["Text"] = [[]];
+G2L["1c"]["Position"] = UDim2.new(0.07234042882919312, 0, 0.38679245114326477, 0);
+G2L["1c"]["Font"] = Enum.Font.FredokaOne;
+
+-- StarterGui.Main.Key sys.TextBox.UICorner
+G2L["1d"] = Instance.new("UICorner", G2L["1c"]);
+
+
+-- StarterGui.Main.Key sys.Moveable
+G2L["1e"] = Instance.new("LocalScript", G2L["14"]);
+G2L["1e"]["Name"] = [[Moveable]];
+
+-- StarterGui.Main.Frame.LocalScript
+local function C_13()
+local script = G2L["13"];
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end;
+task.spawn(C_13);
+-- StarterGui.Main.Key sys.TextButton.LocalScript
+local function C_1b()
+local script = G2L["1b"];
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "FREEDAY" then
+			script.Parent.Parent.Visible = false
+			script.Parent.Parent.Parent.Frame.Visible = true
+		else
+			game.StarterGui:SetCore("SendNotification", {
+				Title = "access denied";
+				Text = "Incorrect Key";
+				Icon = "";
+			})
+		end
+	end)
+end;
+task.spawn(C_1b);
+-- StarterGui.Main.Key sys.Moveable
+local function C_1e()
+local script = G2L["1e"];
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end;
+task.spawn(C_1e);
+
+return G2L["1"], require;
